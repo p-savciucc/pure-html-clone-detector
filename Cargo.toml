@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = [
+    "html-node-processor",
+    "rust-core"
+]
