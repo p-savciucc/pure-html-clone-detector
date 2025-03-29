@@ -42,29 +42,35 @@ The system is composed of two core Rust binaries managed via a Cargo workspace:
 ## 🏆 Test Results Summary
 
 ### Test 1 – 193 HTML Files
+```bash
 - Rendering Time: 287.12ms
 - Clustering Time: 0.64s
 - Total Time: 0 s 932 ms
-
+```
 ### Test 2 – 1,102 HTML Files
+```bash
 - Rendering Time: 754.31ms
 - Clustering Time: 1.72s
 - Total Time: 2 s 474 ms
-
+```
 ### Test 3 – 2,314 HTML Files
+```bash
 - Rendering Time: 1.13s
 - Clustering Time: 3.36s
 - Total Time: 4 s 499 ms
-
+```
 ### Test 4 – 30,493 HTML Files
+```bash
 - Rendering Time: 14.12s
 - Clustering Time: 37.62s
 - Total Time: 51 s 748 ms
-
+```
 ### Test 5 – 312,283 HTML Files
+```bash
 - Rendering Time: 110.10s
 - Clustering Time: 453.22s
 - Total Time: 563 s 323 ms
+```
 
 ## ➕ Pros & Cons Comparison
 
@@ -105,10 +111,10 @@ cd rust-core && cargo build --release && cd ..
 
 ## ⏳ Development Time
 - Architecture Design: 1.5h
-- Rust Implementation: 9h
-- Testing: 5h
+- Rust Implementation: 7h
+- Testing: 2h
 - Optimization & Docs: ~1h
-- **Total**: ~16.5 hours
+- **Total**: ~11.5 hours
 
 ## 📝 License
 MIT License
